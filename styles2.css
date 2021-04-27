@@ -1,0 +1,185 @@
+body {
+  background-color: #eee7ed;
+  margin: 0px;
+  color: #333333;
+  padding: 0px;
+  overflow-y: scroll; /* Add the ability to scroll */
+}
+
+/* Scrollbar styling */
+* {
+  scrollbar-width: normal;
+  scrollbar-color: #d4bcd1 #eee7ed;
+}
+
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #eee7ed;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #d4bcd1;
+}
+
+a {
+  color: #161616;
+  text-decoration: none;
+}
+
+/* Styles for Header Text */
+.headertext {
+  color: #333333;
+  font-size: 28px;
+  text-align: left;
+  margin: 0px;
+  font-family: Rockwell, Courier Bold, Courier, Georgia, Times New Roman, serif;
+  padding: 10px 20px 10px 50px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+/* Styles for Main Div */
+.main {
+  margin-top: 20px;
+  padding: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+}
+
+/* Styles for Searchbar */
+.searchContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBox {
+  width: 100%;
+  padding: 10px;
+  background-color: #fff6eb;
+  text-align: center;
+  padding: 20px;
+}
+
+.inputBox {
+  border: 1px solid #4b7a7c;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 25%;
+  font-size: 14px;
+}
+
+.searchButton {
+  background-color: #733369;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #f8f7f7;
+  font-size: 14px;
+}
+
+.searchButton:hover {
+  background-color: #8f4784;
+}
+
+/* Styles for Review & Plot buttons */
+.chooseButtons {
+  padding: 10px 10px 10px 20px;
+  text-align: center;
+}
+
+.allButton {
+  background-color: #e8beb4;
+  border-radius: 20px;
+  padding: 5px 30px;
+  cursor: pointer;
+  color: #333333;
+  font-size: 16px;
+  border: 0px;
+  font-family: Georgia, serif;
+}
+
+.allButton:hover {
+  background-color: #dba698;
+}
+
+.plotButton {
+  background-color: #f0d5b5;
+  border-radius: 20px;
+  padding: 5px 30px;
+  cursor: pointer;
+  color: #333333;
+  font-size: 16px;
+  border: 0px;
+  font-family: Georgia, serif;
+}
+
+.plotButton:hover {
+  background-color: #e6c396;
+}
+
+.scoreButton {
+  background-color: #f0b5b5;
+  border-radius: 20px;
+  padding: 5px 30px;
+  cursor: pointer;
+  color: #333333;
+  font-size: 16px;
+  border: 0px;
+  font-family: Georgia, serif;
+}
+
+.scoreButton:hover {
+  background-color: #e99c9c;
+}
+
+/* Styles for Dropdown List */
+.option {
+  color: #333333;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+select {
+  border: 1px solid #4b7a7c;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* Styles for Cards */
+.resultsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 15%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  min-height: 260px;
+}
+
+.plotcard {
+  width: 15%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  min-height: 500px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles2.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script
+      src="https://kit.fontawesome.com/d59940b818.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Ghibli Movies</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div>
+        <h1 class="headertext"><a href="index.html">GhibliMoviesApp</a></h1>
+      </div>
+    </header>
+
+    <!-- Search bar -->
+    <div class="searchContainer">
+      <div class="searchBox">
+        <form name="toDoForm" action="#" id="todoform" method="post">
+          <input type="text" class="inputBox" placeholder="Movie title..." />
+          <input type="submit" class="searchButton" value="SEARCH" />
+        </form>
+      </div>
+
+      <!-- Buttons -->
+      <div class="chooseButtons">
+        <button class="allButton">ALL MOVIES</button>
+        <button class="scoreButton">BEST REVIEWED</button>
+        <button class="plotButton">MOVIE PLOTS</button>
+
+        <!-- Dropdown list -->
+        <select name="optionlist" class="optionlist">
+          <option value="">Choose Director</option>
+          <option value="miyazaki">Hayao Miyazaki</option>
+          <option value="takahata">Isao Takahata</option>
+        </select>
+      </div>
+    </div>
+    <!-- Main Div -->
+    <div class="main">
+      <!-- Search results-->
+      <div class="resultsContainer"></div>
+    </div>
+    <!-- Javascript code-->
+    <script src="JSmain.js"></script>
+  </body>
+</html>
