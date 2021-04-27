@@ -190,9 +190,9 @@ function plot() {
 
 // DROP-DOWN FOR CHOOSING DIRECTOR
 function chooseDirect() {
-  results.innerHTML = "";
   // if director is Miyazaki
   if (option.value == "miyazaki") {
+    results.innerHTML = "";
     fetch("https://ghibliapi.herokuapp.com/films")
       .then((response) => {
         return response.text();
@@ -236,6 +236,7 @@ function chooseDirect() {
       });
     //if director is Takahata
   } else if (option.value == "takahata") {
+    results.innerHTML = "";
     fetch("https://ghibliapi.herokuapp.com/films")
       .then((response) => {
         return response.text();
